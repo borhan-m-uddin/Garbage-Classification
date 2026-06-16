@@ -16,12 +16,10 @@ Garbage_Classification_Dataset/
 Garbage_Classification_Outputs/
 
 # # BUT explicitly allow these specific important files
-# !Garbage_Classification_Outputs/best_model.pth
-# !Garbage_Classification_Outputs/classes.json
-# !Garbage_Classification_Outputs/confusion_matrix.png
-# !Garbage_Classification_Outputs/training_metrics.png
-# !Garbage_Classification_Outputs/augmentation_demo.png   # (if it exists)
-
+!Garbage_Classification_Outputs/best_model.pth
+!Garbage_Classification_Outputs/classes.json
+!Garbage_Classification_Outputs/confusion_matrix.png
+!Garbage_Classification_Outputs/training_metrics.png
 # IDE files (optional but good to ignore)
 .vscode/
 .idea/
