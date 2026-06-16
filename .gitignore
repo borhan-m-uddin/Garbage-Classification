@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment (entire folder)
+.venv/
+venv/
+env/
+
+# Dataset folder (large - do not upload)
+Garbage_Classification_Dataset/
+
+# Output folder - ignore EVERYTHING inside by default
+Garbage_Classification_Outputs/
+
+# # BUT explicitly allow these specific important files
+# !Garbage_Classification_Outputs/best_model.pth
+# !Garbage_Classification_Outputs/classes.json
+# !Garbage_Classification_Outputs/confusion_matrix.png
+# !Garbage_Classification_Outputs/training_metrics.png
+# !Garbage_Classification_Outputs/augmentation_demo.png   # (if it exists)
+
+# IDE files (optional but good to ignore)
+.vscode/
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
